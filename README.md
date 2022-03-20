@@ -35,4 +35,4 @@ I chose to introduce people of the world to one of the oldest and most beatiful 
 ---
 
 ![The World](https://media3.giphy.com/media/l0MYPsBLOYyFqSDte/200w.webp?cid=ecf05e47mgi9g0bxkkpz4q8s0befo67bpa6jjnd56yech5kv&rid=200w.webp&ct=g)
-The project is live on GitHub pages. You can view it via [this link]()!
+The project is live on GitHub pages. You can view it via [this link](https://vasystus.github.io/lyfta-challenge/)!
