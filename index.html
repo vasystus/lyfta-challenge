@@ -10,22 +10,26 @@
     <title>Lyfta</title>
 </head>
 <body>
-    <div>
+  <div class="container">
+    <div class="wrapper">
+      <div class="header">
 <!-- video player -->
      <h3>Welcome to Lviv, Ukraine!</h3>
      <p>(Before the Russian invasion)</p>
-     <video id="video_player" width="320" height="240">
-        <source src= "https://srv40.y2mate.is/download?file=541158bb0b54c8f30d4585e52148b4e2137140&token=vodS3sfJHqjuICk_EK2wSA&expires=1647815203555&s=gvxiqvHbwp2p93TXVXJoOQ" type="video/mp4">
+      </div>
+     <video id="video_player" class="video">
+        <source src="https://srv40.y2mate.is/download?file=541158bb0b54c8f30d4585e52148b4e2137140&token=vodS3sfJHqjuICk_EK2wSA&expires=1647815203555&s=gvxiqvHbwp2p93TXVXJoOQ" type="video/mp4">
     </video>
 <!-- video player controls -->
-        <div id="player_controls">
+        <div id="player_controls" class="controls">
           <button id="play_button" class="play" onclick="playVideo()"><i class="fa fa-play"></i></button>
           <button id="pause_button" class="pause" onclick="pauseVideo()"><i class="fa fa-pause"></i></button>
           <button id="stop_button" class="stop" onclick="stopVideo()"><i class="fa fa-stop"></i></button>
           <image><i class="fas fa-volume-up"></i></image>
           <input type ="range" id="change_vol" onchange="changeVolume()" step="0.05" min="0" max="1" value="1">
         </div>
-     </div>
+    </div>
+  </div>
    <script src="script.js"></script>   
 </body>
 </html>
