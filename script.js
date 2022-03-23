@@ -28,8 +28,3 @@ function changeVolume()
  player.volume = document.getElementById("change_vol").value;
 }
 
-document.querySelector('button').addEventListener('click', function() {
-    context.resume().then(() => {
-      console.log('Playback resumed successfully');
-    });
-  });
