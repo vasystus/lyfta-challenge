@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() { startPlayer(); }, false);
+// creating variable for video player setting
 let player;
 
 function startPlayer() 
